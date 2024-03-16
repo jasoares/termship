@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["João Soares"]
   spec.email         = ["jsoaresgeral@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "A simple battleship game for the terminal using the curses library"
+  spec.description   = "A simple battleship game for the terminal using the curses library. This is a simple implementation of the classic battleship game using the curses library to draw the game board and handle user input. The game is played on a 10x10 grid where the player and the computer each place 5 ships. The player and the computer take turns to guess the position of the ships and the first one to sink all the ships of the opponent wins the game. The game is played in the terminal and uses the curses library to draw the game board and handle user input."
+  spec.homepage      = "https://github.com/jasoares/termship"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "unpublished"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = spec.homepage
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
