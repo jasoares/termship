@@ -1,8 +1,10 @@
 # Termship
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/termship`. To experiment with that code, run `bin/console` for an interactive prompt.
+A simple battleship game I made to play with my 4 year old kids in 2 hours, thanks to Github Copilot.
+Implemented in my usual language of choice Ruby and using Curses to make a simple terminal based game.
+See the video below:
 
-TODO: Delete this and the text above, and describe your gem
+![termship_low_res](https://github.com/jasoares/termship/assets/1004109/0633f620-4eb8-49cd-9573-2016387c2f48)
 
 ## Installation
 
